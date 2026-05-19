@@ -25,12 +25,10 @@ const app = express();
 // Middleware
 app.use(cors({
   origin: [
+    'https://tanstack-start-app.zeynabiqbal225.workers.dev',
+    'https://elevate-well-pi.vercel.app',
     'http://localhost:5173',
-    'http://localhost:8080',
-    'http://localhost:8081',
-    'http://localhost:8082',
-    'http://localhost:8083',
-    'http://localhost:8084',
+    'http://localhost:3000'
   ],
   credentials: true
 }));
