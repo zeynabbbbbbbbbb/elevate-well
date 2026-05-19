@@ -9,6 +9,7 @@
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "start": "npx serve dist/client -s",
+    "deploy": "npm run build && wrangler deploy",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
